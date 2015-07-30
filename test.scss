@@ -1,0 +1,64 @@
+/*
+ *	Fonts
+ */
+
+$primary-font: $gotham;
+$secondary-font: $gotham-round;
+
+// Headings
+$heading-font-weight: 700;
+
+/*
+ * Theme Colors
+ */
+
+// Base Colors
+$font-color: $text-color;
+$secondary-font-color: $lightgrey;
+$link-color: $red;
+$link-highlight: $red-highlight;
+
+// Backgrounds
+$body-background: $background-gray;
+$header-background: linear-gradient(to right, darken($navy, 5%) 2%, $navy, darken($navy, 5%) 98%) ;
+$header-fallback-background: $navy;
+$small-menu-background: $navy;
+$cta-background: linear-gradient(to right, darken($navy, 7%) 2%, $navy, darken($navy, 7%) 98%) ;
+$cta-fallback-background: $navy;
+$footer-cta-background: $yellow;
+$footer-background: $navy;
+$footer-fallback-background: $navy;
+
+// Main Menu
+$menu-link-color: white;
+$menu-link-color-hover: $yellow;
+$menu-eyebrow-color: rgba($menu-link-color, 0.5);
+$small-menu-social-buttons: lighten($navy, 15%);
+$main-logo-padding: 0 1em;
+
+// Articles
+//$eyebrow-color:  ;
+$title-color: $darkgrey;
+$content-background: white;
+$content-border-color: $border-color;
+$block-quote-border-color: $navy;
+$block-quote-background-color: white;
+
+// State Labels
+$state-label-color: $navy;
+
+// Photos
+$credit-background: $navy;
+$credit-font-color: $border-color;
+
+// Section Labels
+$section-label-color:  $navy;
+$section-label-bar-color: $navy;
+
+// Buttons
+$button-primary: $red;
+//$button-secondary: ;
+
+.test {
+  background: $red;
+}
