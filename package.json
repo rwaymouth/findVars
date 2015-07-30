@@ -1,0 +1,20 @@
+{
+  "name": "findVars",
+  "version": "1.0.0",
+  "description": "Find and list Sass variables in a set of files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "variables",
+    "parse",
+    "list"
+  ],
+  "author": "Rob Waymouth",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^3.10.0"
+  }
+}
